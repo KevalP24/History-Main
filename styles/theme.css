@@ -1,0 +1,18 @@
+* {
+    /** title font style */
+    --title-font: 'Gloock';
+   
+    /** theme font style */
+    --theme-font: 'Poppins';
+    --highlight-weight: bold;
+    --heighlight-size: 24px;
+
+    /** theme color */
+    --theme-background-color: #ede4e0;
+    --theme-color: rgb(165, 105, 71);
+    --theme-hover: rgb(248, 217, 199);
+    --theme-shadow: rgba(0, 0, 0, 0.684);
+    --theme-font-color: rgb(205, 204, 204);
+    --theme-button-color: rgb(238, 238, 238);
+    --theme-details-color: rgb(95, 57, 35);
+}

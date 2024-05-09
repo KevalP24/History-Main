@@ -1,0 +1,102 @@
+:root {
+  /** title font style */
+  --title-font: 'Gloock';
+   
+  /** theme font style */
+  --theme-font: 'Poppins';
+  --highlight-weight: bold;
+  --heighlight-size: 24px;
+
+  /** theme color */
+  --theme-background-color: #ede4e0;
+  --theme-color: rgb(165, 105, 71);
+  --theme-hover: rgb(248, 217, 199);
+  --theme-shadow: rgba(0, 0, 0, 0.684);
+  --theme-font-color: rgb(205, 204, 204);
+  --theme-button-color: rgb(238, 238, 238);
+  --theme-details-color: rgb(95, 57, 35);
+}
+
+body {
+  background-color: var(--theme-background-color);
+  font-family: var(--theme-font), Arial;
+  margin: 0;
+  /* color: var(--theme-font-color); */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+}
+
+.panel.active {
+  display: block;
+}
+
+.accordion-btn {
+  background-color: var(--theme-button-color);
+  color: var(--theme-color);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.4s ease;
+  display: flex;
+  align-items: center;
+}
+.accordion-btn:hover {
+  background-color: var(--theme-hover);
+}
+
+.accordion-btn::after {
+  font-size: 13px;
+  color: #777;
+  margin-left: auto;
+  content: '\02795';
+}
+
+.accordion-btn.active::after {
+  content: '\2796'; 
+}
+span{
+  font-size: 20px;
+}
+.column {
+  width: 49%;
+  float: left;
+  text-align: center;
+}
+
+.column img {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mySlides p {
+  text-align: justify;
+  margin: 0;
+  margin-left: 45px;
+  padding: 10px; 
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.img-minimized {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  width: 110px; 
+  margin-right: 15px; 
+}
