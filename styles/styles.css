@@ -1,7 +1,7 @@
 :root {
   /** title font style */
   --title-font: 'Gloock';
-   
+
   /** theme font style */
   --theme-font: 'Poppins';
   --highlight-weight: bold;
@@ -62,7 +62,7 @@ body {
 }
 
 .accordion-btn.active::after {
-  content: '\2796'; 
+  content: '\2796';
 }
 span{
   font-size: 20px;
@@ -83,7 +83,7 @@ span{
   text-align: justify;
   margin: 0;
   margin-left: 45px;
-  padding: 10px; 
+  padding: 10px;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -97,6 +97,6 @@ span{
 }
 
 .image-container {
-  width: 110px; 
-  margin-right: 15px; 
+  width: 110px;
+  margin-right: 15px;
 }
