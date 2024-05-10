@@ -37,6 +37,7 @@ body {
 }
 
 .panel.active {
+  display: block;
   max-height: 1000px; 
   padding: 20px; 
 }
