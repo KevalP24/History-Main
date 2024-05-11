@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const accordionBtns = document.querySelectorAll('.accordion-btn');
+    const accordionbtnList = document.querySelectorAll('.accordion-btn');
 
-    accordionBtns.forEach(btn => {
+    accordionbtnList.forEach(btn => {
         btn.addEventListener('click', function() {
             const panel = this.nextElementSibling;
-            const panels = document.querySelectorAll('.panel');
-            const buttons = document.querySelectorAll('.accordion-btn');
+            const panelList = document.querySelectorAll('.panel');
+            const buttonList = document.querySelectorAll('.accordion-btn');
 
-            panels.forEach(p => {
+            panelList.forEach(p => {
                 if (p !== panel && p.classList.contains('active')) {
                   p.classList.remove('active');
                 }
             });
-            buttons.forEach(b => {
+            buttonList.forEach(b => {
                 if (b !== this && b.classList.contains('active')) {
                   b.classList.remove('active');
                 }
