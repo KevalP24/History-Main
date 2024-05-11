@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const accordionbtnList = document.querySelectorAll('.accordion-btn');
+    const accordionbuttonList = document.querySelectorAll('.accordion-btn');
 
-    accordionbtnList.forEach(btn => {
+    accordionbuttonList.forEach(btn => {
         btn.addEventListener('click', function() {
             const panel = this.nextElementSibling;
             const panelList = document.querySelectorAll('.panel');
