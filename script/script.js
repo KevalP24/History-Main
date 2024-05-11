@@ -25,6 +25,3 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-function exploreScroll(){
-    window.scrollTo(0, 650, 'smooth');
-}

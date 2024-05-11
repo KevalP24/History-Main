@@ -30,15 +30,14 @@ body {
 }
 
 .navbar {
+  background-color: #ede4e0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Poppins';
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
-  background-color: var(--theme-background-color); 
-  backdrop-filter: blur(10px);
 }
 
 .nav {
@@ -53,18 +52,15 @@ body {
 .nav li a {
   text-decoration: none;
   display: block;
-  /*previously inline, padding doesn't work correctly vertically*/
   padding: 15px;
-  font-family: 'Poppins';
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   color: rgb(0, 0, 0);
 }
 
 .nav li a:hover {
   background-color: #a69086;
-  /* border-radius: 10px; */
   color: black;
 }
+
 
 .login {
   text-decoration: none;
